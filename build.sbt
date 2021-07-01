@@ -8,7 +8,7 @@ inThisBuild(
     organizationName := "Heiko Seeberger",
     startYear := Some(2021),
     licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0")),
-    scalaVersion := "3.0.0",
+    scalaVersion := "3.0.1-RC2",
     scalacOptions ++= Seq(
       "-deprecation",
       "-unchecked",

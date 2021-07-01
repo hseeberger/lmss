@@ -1,6 +1,6 @@
-# lmss #
+# Learn myself some Scala 3 #
 
-Welcome to lmss!
+Welcome to LMSS – "Learn myself some Scala 3". Or maybe "Laughing My Self Silly"?
 
 ## Contribution policy ##
 
