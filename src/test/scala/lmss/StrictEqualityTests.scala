@@ -20,7 +20,7 @@ import munit.FunSuite
 import scala.language.strictEquality
 
 final class StrictEqualityTests extends FunSuite:
-  import StrictEqualityTests._
+  import StrictEqualityTests.*
 
   test("cannot be compared") {
     assert(compileErrors("Foo() == Bar()").contains("cannot be compared"))

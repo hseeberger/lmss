@@ -3,6 +3,7 @@ lib_managed
 project/project
 target
 .bsp
+*.scratch
 
 # Worksheets (Eclipse or IntelliJ)
 *.sc

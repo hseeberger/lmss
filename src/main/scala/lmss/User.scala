@@ -16,6 +16,10 @@
 
 package lmss
 
+@main
+def userMain() =
+  println(User(User.FirstName("Heiko"), User.LastName("Seeberger")))
+
 final case class User(firstName: User.FirstName, lastName: User.LastName)
 
 object User:
@@ -30,7 +34,3 @@ object User:
   object LastName:
     def apply(value: String): LastName =
       value
-
-@main
-def userMain() =
-  println(User(User.FirstName("Heiko"), User.LastName("Seeberger")))

@@ -33,7 +33,7 @@ object Foo:
   given Show[Foo] with
     extension (foo: Foo)
       override def show: String =
-        import foo._
+        import foo.*
         s"Foo { bar=$bar }"
 
 final case class Baz(qux: String)

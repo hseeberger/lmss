@@ -15,6 +15,8 @@ inThisBuild(
       "-rewrite",
       "-new-syntax",
       "-Xfatal-warnings",
+      "-source",
+      "future",
     ),
     testFrameworks += new TestFramework("munit.Framework"),
     scalafmtOnCompile := true,
